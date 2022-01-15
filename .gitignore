@@ -10,7 +10,18 @@ kubeconfig
 .config.env
 # Ansible
 xanmanning.k3s*
+.cache/
 # Terraform
 .terraform
 .terraform.tfstate*
 terraform.tfstate*
+
+# OS build directories and files
+os/amd64/tftp/
+os/amd64/www/
+*.iso
+
+# Binaries
+bin/
+
+
